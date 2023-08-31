@@ -1,0 +1,48 @@
+/*vvvv page related vvvv*/
+#page-container
+{
+    min-height: 100vh;
+}
+
+#content-wrap
+{
+    padding-bottom: 4rem;
+}
+footer
+{
+    position: absolute;
+}
+
+h3
+{
+    text-transform: capitalize;
+    
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*vv article boxes vv*/
+
+.pretty-box
+{
+    background-color: #b89779;
+    border-radius: 10px;
+    border: 2px solid #3c3434;
+    padding: 1%;
+    margin: 1%;
+    align-items: center;
+}
+
+.masterlist
+{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}

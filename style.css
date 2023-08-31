@@ -1,0 +1,433 @@
+/*vvvvvvvv general vvvvvvvv*/
+html
+{
+    font-family: 'Comfortaa';
+    background-color: #ac8563;
+}
+
+
+@media screen and (min-width: 601px) {
+    html {
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    html{
+      font-size: 10px;
+    }
+  }
+
+a 
+{color:darkred;}
+
+p
+{
+    text-align: justify;
+    padding: 1%;
+    line-height: 1.8;
+    
+}
+
+strong
+{text-transform: capitalize;}
+
+.title
+{
+    text-align: center;
+    color:#e7e7e7;
+    text-shadow: 2px 2px 4px #151515;
+    text-transform: uppercase;
+    font-family: 'Neucha';
+    font-weight: bold;  
+}
+
+
+@media screen and (min-width: 601px) {
+    .title {
+      font-size: 40pt;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .title {
+      font-size: 5vw;
+    }
+  }
+
+.title2
+{
+    text-align: center;
+    color:#e7e7e7;
+    text-shadow: 2px 2px 4px #151515;
+    text-transform: uppercase;
+    font-family: 'Neucha';
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 601px) {
+    .title2 {
+      font-size: 30pt;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .title2 {
+      font-size: 4vw;
+    }
+  }
+
+h2
+{
+    text-transform: capitalize;
+    font-family: 'Neucha';
+    font-size: 4vw;    
+}
+
+@media screen and (min-width: 601px) {
+    h2 {
+      font-size: 20pt;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .h2 {
+      font-size: 4vw;
+    }
+  }
+
+header
+{ 
+    top: 0;
+    margin: 0;
+    overflow:hidden;
+    width:100%;
+    height: auto;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-image: url(https://www.pbs.org/wgbh/nova/media/original_images/cave_painting_hero.jpg);
+    background-position: 60% 80%;
+}
+
+footer
+{
+    background-color: #151515;
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+    color: #a5a5a5;
+    font-size: small;
+}
+
+footer p
+{
+    text-align: center;
+}
+
+/*vvv Navigation bar vvv*/
+nav
+{
+    top: 0;
+    margin: 0;
+    block-size: 40%;
+    padding: 0;
+    position:sticky;
+    position:-webkit-sticky;
+    background-color: #151515;
+    overflow:hidden;
+    text-align: center;
+    text-transform: capitalize;
+    top: 0;
+    
+}
+
+.NavBar 
+{margin: 0;}
+
+.Menu, .MenuTracker, .Home
+{
+
+  display:inline-block;
+  color:#a5a5a5;
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .MenuTracker {
+    display: none;
+  }
+}
+
+.Menu a, .MenuTracker a, .Home a
+{
+    color:#a5a5a5;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px 12px
+}
+
+.Menu a:hover
+{background-color: #3c3434;}
+
+/*vv Body vv*/
+body
+{
+margin:0;
+min-height: 100vh;
+}
+
+.page-container
+{
+  margin:2px;
+}
+
+/*vvvvv Character Info vvvvvv*/
+
+/*vv Import vv*/
+td, table
+{   
+    padding:0.5%;
+    text-align: left;
+    width: fit-content;
+    
+   
+}
+
+#Import
+{
+    float:right;
+    background-color: #b89779;
+    border-radius: 10px;
+    border: 2px solid #3c3434;
+    padding: 1%;
+    margin-left : 1%;
+    margin-right: 1%;
+}
+
+
+.LeftRow{font-weight: bold;}
+
+img
+{
+    width: 200px;
+    margin:1%;
+}
+
+#Personality ul
+{
+  list-style-type: none;
+  text-align: justify;
+  padding: 1%;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 601px) {
+    img {
+      width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    img {
+      width: 30vw;
+    }
+  }
+
+/*vv Skills and progress bar vv*/
+
+#Skills-jauge
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin:0;
+    padding: 0;
+   
+}
+  
+
+.dl-Bar
+{
+    float:left;
+    width: fit-content;
+    border: 2px solid #3c3434;
+    background-color: #b89779;
+    border-radius: 10px;
+    padding: 1%;
+    padding-right: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0;
+}
+
+dt
+{
+    font-weight: bold;
+    padding: 1%;
+}
+
+dd
+{
+  text-align: justify;
+  padding: 1%;
+  line-height: 1.8;
+}
+
+
+
+@media screen and (min-width: 601px) {
+    .progressBarWrapper {
+      width: 400px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .progressBarWrapper {
+      width: 60vw;
+      
+    }
+  }
+
+.progressBar
+{
+    width: 100%;
+    background-color:#ece8d6;
+    border-radius: 3px;
+    padding:1px;
+    box-shadow: inset 0 1px 3px rbga(0,0,0, .2);
+   
+}
+.progressBarFill
+{
+    display: block;
+    height: 10px;
+    background-color:#efa365;
+    border-radius: 3px;  
+}
+
+/* vv Relationships Layout vv */
+
+@media screen and (min-width: 601px) {
+  .alignRight img
+  {
+      width: 200px;
+      float:right;
+      margin-left: 1%;
+      border-radius: 20%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .alignRight img
+  {
+      width: 100px;
+      float:right;
+      margin-left: 1%;
+      border-radius: 20%;
+  }
+}
+@media screen and (min-width: 601px) {
+  .alignLeft img
+  {
+      width: 100px;
+      float:left;
+      margin-left: 1%;
+      border-radius: 20%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .alignLeft img
+  {
+      width: 100px;
+      float:left;
+      margin-left: 1%;
+      border-radius: 20%;
+  }
+}
+
+
+.alignLeft h3
+{
+    text-align: right;
+    padding: 1%;
+}
+
+.alignRight h3
+{
+    text-align: left;
+    padding: 1%;
+}
+
+
+
+/*vvvvv Game Info vvvvvv*/
+
+/*vv Activity Forms vv*/
+
+.flex_container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right:1%;
+    margin-left:1%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Form
+{
+    border:2px solid #3c3434;
+    border-radius: 10px;
+    padding: 0.5%;
+    background-color:#b89779;
+    
+}
+
+.Form p
+{text-align: left;}
+
+.Form h3
+{text-align: center;}
+
+.Form ul
+{
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin:0;
+    padding:0;
+}
+ /*vv Slots vv*/
+ ol li::marker
+ {
+  font-family:sans-serif;
+ }
+
+#Slots
+{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+ol
+{
+  border:2px solid #3c3434;
+  border-radius: 10px;
+  padding: 0.5%;
+  background-color:#b89779;
+  width:fit-content;
+  list-style-position:inside;
+
+}
