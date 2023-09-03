@@ -187,7 +187,7 @@ min-height: 100vh;
 /*vvvvv Character Info vvvvvv*/
 
 /*vv Import vv*/
-td, table
+aside td, aside table
 {   
     padding:0.5%;
     text-align: left;
@@ -405,6 +405,11 @@ dd
     text-decoration: underline;
     margin:0;
     padding:0;
+}
+
+.FormList
+{
+  list-style: none;
 }
  /*vv Slots vv*/
  ol li::marker
